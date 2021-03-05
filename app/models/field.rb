@@ -2,6 +2,7 @@ class Field < ApplicationRecord
   before_create :set_hectarage
 
   belongs_to :farm
+  has_one :crop
 
   private
 

@@ -1,4 +1,4 @@
 class Order < ApplicationRecord
-  belongs_to :chemical
+  has_one :chemical
   belongs_to :farm
 end
