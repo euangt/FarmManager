@@ -5,7 +5,6 @@ class CreateFields < ActiveRecord::Migration[6.1]
       t.string :name
       t.integer :width
       t.integer :length
-      t.string :crop
       t.date :last_sprayed
       t.integer :hectarage
 
